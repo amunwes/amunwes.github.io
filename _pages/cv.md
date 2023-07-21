@@ -15,7 +15,8 @@ Education
 
 
 # Work experience
-======
+
+
 ## CADEX ELECTRONICS, Richmond, BC
 Research coop, Jan 2022–Aug 2022
 * Employ good coding practices and object-oriented programming techniques to improve and
@@ -58,4 +59,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* 
