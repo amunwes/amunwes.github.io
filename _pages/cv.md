@@ -11,22 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Electrical Engineering, The University of British Columbia, 2023
 
-Work experience
+
+# Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+## CADEX ELECTRONICS, Richmond, BC
+Research coop, Jan 2022–Aug 2022
+* Employ good coding practices and object-oriented programming techniques to improve and
+organize multiple in-house software development projects.
+* Worked as a part of a small team developing data acquisition and processing tools for research
+projects.
+* Obtained a solid understanding of embedded application development by creating, testing, and
+deploying applications on custom hardware.
+* Gained practical experience applying machine learning algorithms on acquired data to develop
+customer facing products.
+* Wrote code to safely interact with secure cloud databases to consolidate research results.
+* Wrote comprehensive documentation to ensure smooth project handoffs.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
 Skills
 ======
 * Skill 1
