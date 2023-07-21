@@ -2,7 +2,7 @@
 title: "ELEC 400M"
 collection: course-work
 type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /course-work/ELEC-400M
 venue: "University of British Columbia, ECE"
 date: 2022-01
 location: "Vancouver BC., Canada"
