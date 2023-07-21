@@ -4,7 +4,7 @@ collection: course-work
 type: "Workshop"
 permalink: /course-work/ELEC-400M
 venue: "University of British Columbia, ECE"
-date: 2022-01
+date: 2022-01-01
 location: "Vancouver BC., Canada"
 ---
 
