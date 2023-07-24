@@ -197,7 +197,7 @@ defaults:
 # _course-work
   - scope:
       path: ""
-      type: teaching
+      type: course-work
     values:
       layout: single
       author_profile: true
