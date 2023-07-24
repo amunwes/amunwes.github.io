@@ -1,8 +1,8 @@
 ---
-title: "ELEC 400M"
+title: "ELEC 301"
 collection: course-work
 type: "Workshop"
-permalink: /course-work/ELEC-400M
+permalink: /course-work/ELEC-301
 venue: "University of British Columbia, ECE"
 date: 2022-01-01
 location: "Vancouver BC., Canada"
