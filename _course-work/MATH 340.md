@@ -8,8 +8,6 @@ date: 2022-01-01
 location: "Vancouver BC., Canada"
 ---
 
-<object data="{{ site.url }}{{ site.baseurl }}/files/paper1.pdf" width="1000" height="1000" type="application/pdf">
-</object>
 
 This is a description of a teaching experience. You can use markdown like any other post.
 
