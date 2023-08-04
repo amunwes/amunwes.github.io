@@ -8,7 +8,9 @@ date: 2022-01-01
 location: "Vancouver BC., Canada"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+ELEC 341
+Systems and Control
+Continuous time system analysis by Laplace transforms; system modeling by transfer function and state space methods; feedback, stability and sensitivity; control design; frequency domain analysis
 
 <object data="{{ site.url }}{{ site.baseurl }}/syllabus/Syllabus and Course Outline for ELEC 341.pdf" width="1000" height="1000" type="application/pdf">
 </object>

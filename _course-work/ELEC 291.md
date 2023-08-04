@@ -8,7 +8,9 @@ date: 2022-01-01
 location: "Vancouver BC., Canada"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+ELEC 291
+Electrical Engineering Design Studio I
+Design projects involving electronic devices and circuits, electromagnetics, signals and systems, and microcomputers. 
 
 Heading 1
 ======

@@ -8,7 +8,9 @@ date: 2022-01-01
 location: "Vancouver BC., Canada"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+ELEC 301
+Electronic Circuits II
+Analysis and design of electronic circuits; biasing of and small-signal models for transistors; frequency response of amplifiers; feedback and stability aspects of amplifier design; OP-AMPs; active filters; oscillators; IC specification and selection.
 
 Heading 1
 ======

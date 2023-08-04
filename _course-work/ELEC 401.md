@@ -8,7 +8,10 @@ date: 2022-01-01
 location: "Vancouver BC., Canada"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+ELEC 401
+Analog CMOS Integrated Circuit Design
+Design and analysis of analog integrated circuits, with emphasis on CMOS design techniques. Gain stages, opamp design, frequency compensation, oscillators, A/D, D/A converters, PLL, DLL.
+
 
 Heading 1
 ======

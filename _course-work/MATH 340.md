@@ -9,7 +9,9 @@ location: "Vancouver BC., Canada"
 ---
 
 
-This is a description of a teaching experience. You can use markdown like any other post.
+MATH 340 Introduction to Linear Programming
+Linear programming problems, dual problems, the simplex algorithm, solution of primal and dual problems, sensitivity analysis. Additional topics chosen from: Karmarkar's algorithm, non-linear programming, game theory, applications.
+
 
 Heading 1
 ======

@@ -8,7 +8,9 @@ date: 2022-01-01
 location: "Vancouver BC., Canada"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+ELEC 404
+RF Integrated Circuits
+Introduction to radio-frequency (RF) communication systems; Matching Networks, Transceiver architectures, Low Noise Amplifiers, Mixers, Oscillators, etc. 
 
 <object data="{{ site.url }}{{ site.baseurl }}/syllabus/ELEC_404_info.pdf" width="1000" height="1000" type="application/pdf">
 </object>

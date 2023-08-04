@@ -8,6 +8,8 @@ date: 2022-01-01
 location: "Vancouver BC., Canada"
 ---
 
+ELEC 400M : Machine Learning Fundamentals for Engineers.
+
 
 
 <object data="{{ site.url }}{{ site.baseurl }}/syllabus/Syllabus_400M.pdf" width="1000" height="1000" type="application/pdf">
