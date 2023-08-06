@@ -105,9 +105,9 @@ analytics:
 # Site Author
 author:
   name             : "Andrew M.W."
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  avatar           : "profile2.jpg"
+  bio              : "A Recent Grad of the University of British Columbia Electrical Engineering program"
+  location         : "Vancouver B.C. Canada"
   email            :
   links:
     - label: "Email"
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/amunwes"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
