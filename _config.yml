@@ -128,6 +128,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/andrew-munro-west/"
 
 # Site Footer
 footer:
@@ -140,7 +143,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/amunwes"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -290,3 +293,4 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _course-work

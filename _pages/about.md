@@ -1,12 +1,12 @@
 ---
-permalink: /test/
+permalink: /
 title: "Amunwes"
 excerpt: "About me"
 layout: "single"
 author_profile: true
-# redirect_from: 
-#   - /about/
-#   - /about.html
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 Well hello there, you appear to have stumbled upon my personal portfolio website. Thats great! too bad its kinda under renovations at the moment....
