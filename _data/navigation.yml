@@ -1,0 +1,30 @@
+# main links
+main:
+  - title: "Portfolio Projects"
+    url: /portfolio/    
+
+  - title: "Course Work"
+    url: /course-work/    
+    
+  - title: "CV"
+    url: /cv/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Blog Posts"
+    url: /year-archive/
+
+  - title: "About"
+    url: /about/
+    
+  # - title: "Guide"
+  #   url: /markdown/
+
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+    # url: https://mmistakes.github.io/minimal-mistakes/about/
