@@ -2,11 +2,11 @@
 permalink: /
 title: "Amunwes"
 excerpt: "About me"
-layout: "single"
+layout: "home"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+# redirect_from: 
+#   - /about/
+#   - /about.html
 ---
 
 Well hello there, you appear to have stumbled upon my personal portfolio website. Thats great! too bad its kinda under renovations at the moment....
@@ -16,7 +16,7 @@ The plan with this site is to help me show off some of my projects and education
 This is my first time building and hosting a website so im hoping to learn alot as i slowly make changes here.
 I invite you to come back and visit sometime in the future when i have more impressive things coded up :)
 
-for those interested im working off the [academicpages template](https://github.com/academicpages/academicpages.github.io) hosted using github pages. I highly encourage anyone interested in building a website to check it out. provides free static website hosting and academic templates is a free template thats great for building a basic academic site like this in jekyll.
+for those interested I'm using the [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/) jekyll theme, taking some design ideas from the [academicpages template](https://github.com/academicpages/academicpages.github.io), hosted using github pages. I highly encourage anyone interested in building a website to check it out. provides free static website hosting and academic templates is a free template thats great for building a basic academic site like this in jekyll.
 
 
 quick update 08/06/2023: i realized that the academic pages template i've been using is somewhat outdated. It was built off of an early fork of the minimal-mistakes jekyll theme but overwrote alot of the theme defaults so customization was somewhat difficult and I didn't have a way to easily access the alternate themes within minimal mistakes so rather than work through 2 sets of documentation trying to update the jekyll theme im opting to rebuild from scratch using the updated minimal mistakes theme.
