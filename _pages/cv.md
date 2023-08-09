@@ -7,11 +7,11 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+
 
 Education
 ======
-* B.S. in Electrical Engineering, The University of British Columbia, 2023
+* B.S. in Electrical Engineering, The University of British Columbia, Sept 2019 - May 2023
 
 
 # Work experience
