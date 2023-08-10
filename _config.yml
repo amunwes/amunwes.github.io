@@ -29,6 +29,7 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -315,30 +316,6 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
-      related: true
-
-
-      # Defaults
-defaults:
-# _course-work
-  - scope:
-      path: ""
-      type: course-work
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
       share: true
       related: true
   # _pages
