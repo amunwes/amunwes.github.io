@@ -10,7 +10,7 @@ Placeholder for project pages. hopefully some can be embedded into the markdown 
 
 plans to include:
 - interactive conways game of life
-- some digital signal and image processing projects recoded in python based on my work inf ELEC 421.
+- some digital signal and image processing projects recoded in python based on my work in ELEC 421.
 - the game 2048 ebedded in the page, (iv seen it done before).
 - a webscraper at some point would be cool.
 - Some ML projects
