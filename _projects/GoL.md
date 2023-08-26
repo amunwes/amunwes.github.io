@@ -9,6 +9,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 ---
+
 John Conway's Game of Life is a cellular automation, zero-player game devised by the british mathematician John Horton Conway. This means that the "player" decides the initial state of the board and once the game begins the board evolves based on it's own set of rules. 
 
 The board in the Game of Life is constructed of a rectangular grid of square cells, where each cell can be treated as alive or dead. Every cell has information about the current state of it's 8 neighboring cells at the current time step, which dictates what the cells state will be in the next time step based on the following rules:
@@ -34,9 +35,6 @@ The Process can be broken down into 3 parts
 As a starting point I used this pygame template for setting up a simple game [template](http://programarcadegames.com/python_examples/f.php?file=pygame_base_template.py).
 
 The template is fairly self explanitory but here's a quick explanation of it's logic:
-
-
-
 
 
 
@@ -83,7 +81,6 @@ for r, c in np.ndindex(grid.shape):
 
 
 ## interacting with the gid
-
 
 
 
