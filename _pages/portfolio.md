@@ -22,8 +22,4 @@ plans to include:
   - some pipelining examples
   - image classifier
   - NN from scratch(?)
-<<<<<<< Updated upstream
   - stock predictor maybe
-=======
-  - stock predictor maybe
->>>>>>> Stashed changes
