@@ -4,9 +4,13 @@ title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
-
-
 Placeholder for project pages. hopefully some can be embedded into the markdown but i forsee at least a few will require their own github pages to link to.
+  
+{% for post in site.projects %}
+  {% include archive-single.html %}
+{% endfor %}
+
+
 
 
 plans to include:
@@ -20,8 +24,3 @@ plans to include:
   - image classifier
   - NN from scratch(?)
   - stock predictor maybe
-
-  
-{% for post in site.projects %}
-  {% include archive-single.html %}
-{% endfor %}
