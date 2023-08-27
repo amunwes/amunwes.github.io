@@ -36,6 +36,75 @@ As a starting point I used this pygame template for setting up a simple game [te
 
 The template is fairly self explanitory but here's a quick explanation of it's logic:
 
+First they import pygame and define some global variables that represent the RGB values of colors they want to use.
+
+~~~~python
+import pygame
+
+# Define some colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+~~~~
+
+Then in the call function they initialize pygame, setup the dimensions of the pygame display they want to use, create the display object named screen and give the screen a name. They also set any initial flags the pygame will use: for example the done flag controls the exit behaviour of our main loop. They also start a clock in order to control the framerate/update speed of the main loop.
+
+~~~~python
+if __name__ == '__main__':
+
+    pygame.init()
+
+    # Set the width and height of the screen [width, height]
+    size = (700, 500)
+    screen = pygame.display.set_mode(size)
+
+    pygame.display.set_caption("My Game")
+
+    # Loop until the user clicks the close button.
+    done = False
+
+    # Used to manage how fast the screen updates
+    clock = pygame.time.Clock()
+
+~~~~
+
+Then they start the main event loop. Everytime the event loop loops it checks for if the quit event was triggered, if it was then it sets the done flag and our main loop will end and pygame will run it's quit command. In other cases we would then have code for updating our games variables, and code for redrawing the screen to match the games new state. 
+
+clock.tick(60) controls the maximum framerate of our loop causing a delay in execution until 1/60th of a second has passed. 
+
+pygame.display.flip() fully updates the screen, pygame.display.update() will also do this but update has the ability to update specified objects instead of the entire screen causing it to be faster in other applications.
+
+~~~~python
+ while not done:
+        # --- Main event loop
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                done = True
+
+        # --- Game logic should go here
+
+        # --- Screen-clearing code goes here
+
+        # Here, we clear the screen to white. Don't put other drawing commands
+        # above this, or they will be erased with this command.
+
+        # If you want a background image, replace this clear with blit'ing the
+        # background image.
+        screen.fill(WHITE)
+
+        # --- Drawing code should go here
+
+        # --- Go ahead and update the screen with what we've drawn.
+        pygame.display.flip()
+
+        # --- Limit to 60 frames per second
+        clock.tick(60)
+
+    # Close the window and quit.
+    pygame.quit()
+~~~~
+
 
 
 # Building the Grid
