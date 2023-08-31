@@ -284,5 +284,5 @@ Complete code can be found here:
 
 some potential improvements:
     
-    use a single grid to track cell status, and swap status.
-    could also store pygame.rect() objects in our grid instead of using math to track interactions.
+Use a single grid to track cell status, and swap status.
+could also store pygame.rect() objects in our grid instead of using math to track interactions.
