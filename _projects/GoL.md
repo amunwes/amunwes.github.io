@@ -247,6 +247,34 @@ We simply set a flag and depending on the status of that flag we either use our 
 # Adding Buttons
 Finally we need some buttons so the user can decided when they have finished setup
 
+First we need to initialize the font and text for our buttons.
+Then initialized the reset and start buttons as rectangle objects at their corresponding locations.
+~~~~python
+    # rendering text for buttons
+    smallfont = pygame.font.SysFont('sans', 30)
+    START = smallfont.render('START', True, WHITE)
+    RESET = smallfont.render('RESET', True, WHITE)
+    # rendering necessary rectangles
+    btn_bg = pygame.Rect(0, MARGIN + Y_DIM * (HEIGHT + MARGIN), size[0], BTN_HEIGHT)
+    reset_btn = pygame.Rect(0, MARGIN + Y_DIM * (HEIGHT + MARGIN), size[0] / 2, BTN_HEIGHT)
+    start_btn = pygame.Rect(size[0] / 2, MARGIN + Y_DIM * (HEIGHT + MARGIN), size[0] / 2, BTN_HEIGHT)
+    reset_btn.scale_by_ip(x=0.8, y=0.8)
+    start_btn.scale_by_ip(x=0.8, y=0.8)
+~~~~
+
+For the buttons i decided to use pygames built in rectangle objects and their inbuilt collidepoint method. The collidepoint performs a check on whether the supplied coordinates are inside our rectangle so we check where the mouse is when it clicks down. If we click the start button we switch the start flag and begin updating life, if we click reset then we clear our grid and return to the initial state. 
+
+~~~~python
+            elif event.type == pygame.MOUSEBUTTONDOWN:
+                mouse_down = True
+                player_position = pygame.mouse.get_pos()
+                if reset_btn.collidepoint(player_position):
+                    grid = init_grid(X_DIM, Y_DIM)
+                    start = False
+                if start_btn.collidepoint(player_position):
+                    start = True
+~~~~
+
 
 # The complete code
 Complete code can be found here:
