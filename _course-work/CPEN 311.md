@@ -1,8 +1,8 @@
 ---
 title: "CPEN 311"
 collection: course-work
-type: "Workshop"
 permalink: /course-work/CPEN-311
+type: course-work
 venue: "University of British Columbia, ECE"
 date: 2022-01-01
 location: "Vancouver BC., Canada"
