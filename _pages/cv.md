@@ -13,8 +13,9 @@ For a more detailed description of my journey so far read on past the resume.
 [Andrew_MunroWest_Resume_2023_sofware.pdf](/syllabus\Andrew_MunroWest_Resume_2023_sofware.pdf)
 <object data="{{ site.url }}{{ site.baseurl }}/syllabus\Andrew_MunroWest_Resume_2023_sofware.pdf" width="1000" height="1000" type="application/pdf">
 </object>
-
-=====
+    
+<br />  
+ 
 
 EDUCATION
 =====
@@ -126,6 +127,17 @@ May, 2021 – August, 2021  - worked for Verdi Agriculture as an independant con
 * Great experience! so insightful and fulfilling.
 * Got involved in all aspects of the development cycle.
 * Got to experience a wide range of different projects. 
+
+2021-2023 - split up 4th year course load into 3 parts
+* Finished the first part before going to cadex and then returned after to finish the last half of 4th year.
+* Final 2 semesters did my capstone project working for Line-6, Yamaha guitar group designing and building an apparatus to measure vibrations in guitar strings.
+
+2023 May - Graduation
+* Finished up my degree and graduated with distinction 
+* Convocation on June 1st
+
+2023 Summer - Honed coding skills and enjoyed the summer
+* The job hunt continues...
 
 
 
