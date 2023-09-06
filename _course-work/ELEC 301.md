@@ -1,11 +1,12 @@
 ---
 title: "ELEC 301"
 collection: course-work
-type: "Workshop"
+# type: "Workshop"
 permalink: /course-work/ELEC-301
 venue: "University of British Columbia, ECE"
 date: 2022-01-01
 location: "Vancouver BC., Canada"
+number: 11
 ---
 
 ELEC 301
@@ -24,4 +25,7 @@ A fundamental electronics course where we primarily learned techniques for desig
 
 # Sample work
 
-[mini=project 1 report] (\homework\MUNROWEST72-MP1.pdf)
+* [mini-project 1 report](\homework\MUNROWEST72-MP1.pdf)
+* [mini-project 2 report](\homework\MUNROWEST72-MP2.pdf)
+* [mini-project 3 report](\homework\MUNROWEST72-MP3.pdf)
+* [mini-project 4 report](\homework\MUNROWEST72-MP4.pdf)

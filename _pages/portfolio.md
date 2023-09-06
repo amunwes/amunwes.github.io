@@ -1,14 +1,19 @@
 ---
-layout: archive
 title: "Projects"
+layout: collection
 permalink: /projects/
 author_profile: true
+collection: projects
+entries_layout: grid
+classes: wide
+# sort_by: # date (default), title or any metadata key added to the collection's documents
+# sort_order: # forward (default), reverse
 ---
 Placeholder for project pages. 
   
-{% for post in site.projects %}
+<!-- {% for post in site.projects %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
 
 
 

@@ -10,6 +10,7 @@ location: "Vancouver BC., Canada"
 toc_label: "Table of Contents"
 toc_icon: "cog"
 classes: wide
+number: 4
 ---
 
 CPEN 311 Digital Systems Design

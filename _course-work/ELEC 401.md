@@ -6,6 +6,7 @@ permalink: /course-work/ELEC-401
 venue: "University of British Columbia, ECE"
 date: 2022-01-01
 location: "Vancouver BC., Canada"
+number: 7
 ---
 
 ELEC 401
