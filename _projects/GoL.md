@@ -9,7 +9,9 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 header:
-    teaser: images\bio-photo.jpg
+  image: images\bio-photo.jpg
+  og_image: images\bio-photo.jpg
+  teaser: images\bio-photo.jpg
     # teaser: images\GoL.gif
 ---
 
