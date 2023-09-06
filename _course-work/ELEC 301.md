@@ -22,3 +22,6 @@ Analysis and design of electronic circuits; biasing of and small-signal models f
 
 A fundamental electronics course where we primarily learned techniques for designing circuits using BJT's. The Lesson plan and the professor's methods were rather dated and many people didn't adapt well. I took to the material fairly well and after my first poorly graded project report I buckled down and improved my grade out of spite.
 
+# Sample work
+
+[mini=project 1 report] (\homework\MUNROWEST72-MP1.pdf)

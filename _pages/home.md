@@ -1,19 +1,42 @@
 ---
 permalink: /
-title: "Amunwes"
-excerpt: "About me"
-layout: "home"
+title: "Welcome to my Site"
+layout: single
 author_profile: true
 # redirect_from: 
 #   - /about/
 #   - /about.html
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.6"
+  overlay_image: /images/drippy-tree.jpg
+#   actions:
+#     - label: "Download"
+#       url: "https://github.com/mmistakes/minimal-mistakes/"
+#   caption: "Photo credit: [**Unsplash**](https://unsplash.com"
+excerpt: "This is an in-progress project I've been working on to help build up my portfolio. My name is Andrew and I'm a recent Electrical Engineering Grad. I have a passion and skills geared towards working in software development/data science and I'm hoping that as I build this site it will help me show those skills."
+classes: wide
+
 ---
+The plan with this site is to help me show off some of my projects and education to potential employers and act as somewhat of a blog for my personal endeavours. 
 
-Well hello there, you appear to have stumbled upon my personal portfolio website. Thats great! too bad its kinda under renovations at the moment....
-As you can see in the left panel my name's andrew and im a recent grad of UBC ECE.
+### Portfolio projects 
+is where I plan to create little tutorials for my projects walking the reader through the steps I took and providing code snippets and links to the project on my GitHub.
+Future updates:
+* Interactive Conway's Game of Life tutorial.
+* Plans to recode my DSP classwork from matlab to python.
+* Reorganize and recode my ML classwork as a tutorial. 
 
-The plan with this site is to help me show off some of my projects and education to potential employers and act as somewhat of a blog for my personal endeavours. Currently i'm still working in the planning phase slowly making changes to this template as i decide my next moves but in the future i hope to move some of my more impressive projects into public repos and show them off through this site. 
+### Course Work 
+will contain information for some of the more important courses i've taken including: grade distributions, my thoughts on the course, and syllabus and homework where possible.
+
+### CV 
+just holds a copy of my resume and a more detailed timeline of what I've done since highschool.
+
+### Blog posts and publications
+
+### About
+Check out the about page for more info on what im using to build this site.
+
 This is my first time building and hosting a website so im hoping to learn alot as i slowly make changes here.
 I invite you to come back and visit sometime in the future when i have more impressive things coded up :) 
-
-Check out the about page for more info on what im using.
