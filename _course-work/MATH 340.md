@@ -12,12 +12,10 @@ location: "Vancouver BC., Canada"
 MATH 340 Introduction to Linear Programming
 Linear programming problems, dual problems, the simplex algorithm, solution of primal and dual problems, sensitivity analysis. Additional topics chosen from: Karmarkar's algorithm, non-linear programming, game theory, applications.
 
+| My Class Average: | 68% |
+| My Grade: | 86% |
+| historical averages: | 69.45% | 
+|[https://ubcgrades.com/statistics-by-course#UBCV-MATH-340](https://ubcgrades.com/statistics-by-course#UBCV-MATH-340)|
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+# My Impressions:
+The course itself was difficult but not the content. The professor lacked an understanding of how linear programming was applicable in everyday life and had extremely strict grading. Grading was more often about memorizing some abstract mathematical proof rather than applying the techniques taught to solve any sort of problems.
