@@ -8,8 +8,8 @@ location: "Vancouver BC, Canada"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
-header:
-    teaser: "images/Life.PNG"
+# header:
+#   teaser: "images//Life.PNG"
 #   image: images\bio-photo.jpg
 #   og_image: images\bio-photo.jpg
 #   teaser: images\bio-photo.jpg
