@@ -9,7 +9,8 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 header:
-  teaser: images/lake.jpg
+  teaser: images/Life.PNG
+#   teaser: images/lake.jpg
 #   teaser: "images//Life.PNG"
 #   image: images\bio-photo.jpg
 #   og_image: images\bio-photo.jpg
