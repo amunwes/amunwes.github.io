@@ -8,11 +8,11 @@ location: "Vancouver BC, Canada"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
-# header:
+header:
 #   image: images\bio-photo.jpg
 #   og_image: images\bio-photo.jpg
 #   teaser: images\bio-photo.jpg
-    # teaser: images\GoL.gif
+    teaser: "images\Life.PNG"
 ---
 
 John Conway's Game of Life is a cellular automation, zero-player game devised by the british mathematician John Horton Conway. This means that the "player" decides the initial state of the board and once the game begins the board evolves based on it's own set of rules. 
