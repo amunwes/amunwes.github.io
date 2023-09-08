@@ -33,7 +33,7 @@ work through examples of building a pipeline and building and utilizing Neural N
 
 ### Final_Project 
 is my Final term project for the course. The project was fully independant and I chose to do a natural language processing classification project. I took a database of 40,000 movies and their synopsis' and cleaned the dataset using natural language processing to remove redundant words and tested how 3 classification algorithms manage the task of multi-genre classification using the synopsis word counts as features.
-In the end I wrote a comprehensive report found [here](\homework\ELEC400M_Final_Project_Report.pdf) detailing my process and findings.
+In the end I wrote a comprehensive report found [here](homework/ELEC400M_Final_Project_Report.pdf) detailing my process and findings.
 
 # Syllabus:  
 <object data="{{ site.url }}{{ site.baseurl }}/syllabus/Syllabus_400M.pdf" width="1000" height="1000" type="application/pdf">
