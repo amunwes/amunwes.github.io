@@ -73,7 +73,7 @@ June, 2017 – April, 2018
 *	Coordinated as a team to transform BC Place’s stadium overnight to get it ready for the next day’s events. 
 *	Maintained the concourse during events, cleaning up after guests and providing excellent customer service.
 
-Timeline
+<!-- Timeline
 ======
 2014 - graduated highschool
 * Had a terrible GPA 
@@ -137,7 +137,7 @@ May, 2021 – August, 2021  - worked for Verdi Agriculture as an independant con
 * Convocation on June 1st
 
 2023 Summer - Honed coding skills and enjoyed the summer
-* The job hunt continues...
+* The job hunt continues... -->
 
 
 
