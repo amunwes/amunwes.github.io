@@ -31,12 +31,12 @@ Future updates:
 will contain information for some of the more important courses i've taken including: grade distributions, my thoughts on the course, and syllabus and homework where possible.
 
 ### CV 
-just holds a copy of my resume and a more detailed timeline of what I've done since highschool.
+just holds a copy of my resume and a more of a timeline of what I've done since highschool.
 
 ### Blog posts and publications
 
 ### About
 Check out the about page for more info on what im using to build this site.
 
-This is my first time building and hosting a website so im hoping to learn alot as i slowly make changes here.
-I invite you to come back and visit sometime in the future when i have more impressive things coded up :) 
+This is my first time building and hosting a website so im hoping to learn alot as I slowly make changes here.
+I invite you to come back and visit sometime in the future when I have more impressive things coded up :) 
