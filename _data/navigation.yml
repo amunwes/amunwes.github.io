@@ -5,6 +5,9 @@ main:
 
   - title: "Course Work"
     url: /course-work/    
+
+  - title: "Micro-Games"
+    url: /games/
     
   - title: "CV"
     url: /cv/

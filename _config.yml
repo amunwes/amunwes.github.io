@@ -292,6 +292,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  games:
+    output: true
+    permalink: /:collection/:path/
   
 
 # Defaults
@@ -343,3 +346,14 @@ defaults:
       author_profile: true
       share: false
       comment: true
+  # _games
+  - scope:
+      path: ""
+      type: games
+    values:
+      # layout: default
+      author_profile: false
+      read_time: false
+      comments: # true
+      share: false
+      related: false
