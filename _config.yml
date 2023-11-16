@@ -161,6 +161,7 @@ include:
   - .htaccess
   - _pages
   - _blog
+  - _games
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
