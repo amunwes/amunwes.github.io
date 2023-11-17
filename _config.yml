@@ -352,7 +352,7 @@ defaults:
       path: ""
       type: games
     values:
-      # layout: default
+      layout: default
       author_profile: false
       read_time: false
       comments: # true
