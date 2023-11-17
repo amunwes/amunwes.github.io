@@ -6,6 +6,15 @@ author_profile: true
 ---
 
 
-Not quite sure what I'm going to use this space for, maybe I'll write up some quick blog posts at some point. build up a bit of a digital diary. Maybe if game development takes off and I get a proper plan together I'll make a game dev blog. I do enjoy those...
+Just a space for blog posts
 
+<h1>Latest Posts</h1>
 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
