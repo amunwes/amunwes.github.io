@@ -22,18 +22,18 @@ The plan with this site is to help me show off some of my projects and education
 
 ### Portfolio projects 
 is where I plan to create little tutorials for my projects walking the reader through the steps I took and providing code snippets and links to the project on my GitHub.
-Future updates:
-* Interactive Conway's Game of Life tutorial.
-* Plans to recode my DSP classwork from matlab to python.
-* Reorganize and recode my ML classwork as a tutorial. 
 
 ### Course Work 
 will contain information for some of the more important courses i've taken including: grade distributions, my thoughts on the course, and syllabus and homework where possible.
+
+### Micro-Games
+A section for little html/js games/ I have a couple from some old classes I want to recode and improve upon so we'll see how big that section grows with time.
 
 ### CV 
 just holds a copy of my resume and a more of a timeline of what I've done since highschool.
 
 ### Blog posts and publications
+Not sure what I'm doing with this yet, but it seems a waste to not have a blog section on a personal blog site like this. Maybe in the future I'll do some game devlogs and put them in there. I do love game devlogs....
 
 ### About
 Check out the about page for more info on what im using to build this site.
