@@ -10,8 +10,8 @@ redirect_from:
 
 For a more detailed description of my journey so far read on past the resume.
 
-[Andrew_MunroWest_Resume_2023_sofware.pdf](/syllabus\Andrew_MunroWest_Resume_2023_sofware.pdf)
-<object data="{{ site.url }}{{ site.baseurl }}/syllabus\Andrew_MunroWest_Resume_2023_sofware.pdf" width="1000" height="1000" type="application/pdf">
+[Andrew_MunroWest_Resume_2023_sofware.pdf](/syllabus\Andrew_MunroWest_Resume_2023_sofware_full.pdf)
+<object data="{{ site.url }}{{ site.baseurl }}/syllabus\Andrew_MunroWest_Resume_2023_sofware_full.pdf" width="1000" height="1000" type="application/pdf">
 </object>
     
 <br />  
