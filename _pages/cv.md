@@ -35,24 +35,26 @@ Certification: CSTS-09 construction safety                                      
 Research Software Engineer\\
 January, 2022 – August, 2022
 
-* Employ good coding practices and object-oriented programming techniques to improve and
-organize multiple in-house software development projects.
-* Worked as a part of a small team developing data acquisition and processing tools for research
-projects.
-* Obtained a solid understanding of embedded application development by creating, testing, and
-deploying applications on custom hardware.
-* Gained practical experience applying machine learning algorithms on acquired data to develop
-customer facing products.
-* Wrote code to safely interact with secure cloud databases to consolidate research results.
-* Wrote comprehensive documentation to ensure smooth project handoffs.
+* Applied critical thinking skills to isolate and diagnose fatal errors in code deployed onto the company’s custom hardware without a debugger terminal.
+* Developed user friendly data acquisition and processing tools deployed to custom hardware streamlining testing procedures and reducing testing time from months to weeks, cutting estimated test time by 85%.
+* Wrote and integrated Python code to safely interact with AWS secure cloud PostgresSQL databases into existing projects, facilitating eﬀicient and safe data sharing and collaboration among team members.
+* Played an instrumental part in the hiring process of new employees, vetting, giving technical interviews and eventually on-boarding them, walking them through the complexities of our code base.
+* Gathered, organized and processed 1000’s of battery tests condensing the findings and visualizing the results in Matplotlib and Seaborn before presenting the results and explaining the relevance of specific trends seen in the data to upper management
+* Adopted and reorganized several codebases for in-house research tools applying OOP principles and writing comprehensive documentation improving organization, maintainability and ensuring smoother hand off. 
+* Researched and applied machine learning algorithms utilizing SKlearn and Tensorflow python libraries, analyzing trends, building pipelines improving efficiency 200% and laying the foundations for new customer facing products. 
+* Wrote and integrated Python code to safely query AWS secure cloud PostgresSQL databases into existing projects, facilitating efficient and safe data sharing and collaboration among team members.
+
 
 ## Verdi Agriculture, Vancouver, BC				    	       
-Independent contractor\\
-May, 2021 – August, 2021
+Electrical/Software Engineer (Casual On-Call) \\
+May, 2021 – Present
+* Provided technical support in helping a small startup meet production deadlines and grow their business, giving insights
+into optimizations of the assembly process and improvements on Hardware and Software design.
+* Assisted in research into factors affecting system integrity such as water hammer effect and pressure on valves.
+* Organized and trained a workforce to streamline assembly of 1000’s of devices in order to meet tight deadlines.
+* Soldered and applied conformal coating to 1000’s of PCBs installed into water-tight block valve control devices.
+* Software development as needed.
 
-* Constructed and soldered several hundred devices for deployment.
-* Conformal coated PCBs to improve device lifetime.
-* Provided design insight for improving efficiency in production process.  
 
 ## Whole Foods Canada, Vancouver, BC				    	       
 Part-Time Meat Team Member\\
