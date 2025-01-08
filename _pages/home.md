@@ -14,7 +14,7 @@ header:
 #     - label: "Download"
 #       url: "https://github.com/mmistakes/minimal-mistakes/"
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com"
-excerpt: "This is an in-progress project I've been working on to help build up my portfolio. My name is Andrew and I'm a recent Electrical Engineering Grad. I have a passion and skills geared towards working in software development/data science and I'm hoping that as I build this site it will help me show those skills."
+excerpt: "Hi, My name is Andrew and I'm a UBC Electrical Engineering Grad and current student of the UBC BCS program. I have a passion and skills geared towards working in software development/data science and I'm hoping that as I build this site it will help me show those skills."
 classes: wide
 
 ---
