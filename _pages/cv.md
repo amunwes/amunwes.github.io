@@ -10,8 +10,8 @@ redirect_from:
 
 For a more detailed description of my journey so far read on past the resume.
 
-[Andrew_MunroWest_Resume_2023_sofware.pdf](/syllabus\Andrew_MunroWest_Resume_2023_sofware_full.pdf)
-<object data="{{ site.url }}{{ site.baseurl }}/syllabus\Andrew_MunroWest_Resume_2023_sofware_full.pdf" width="1000" height="1000" type="application/pdf">
+[Andrew_MunroWest_Resume_2023_sofware.pdf](/syllabus\Andrew_MunroWest_Resume_2025_software.pdf)
+<object data="{{ site.url }}{{ site.baseurl }}/syllabus\Andrew_MunroWest_Resume_2025_software.pdf" width="1000" height="1000" type="application/pdf">
 </object>
     
 <br />  
@@ -44,8 +44,16 @@ January, 2022 – August, 2022
 * Researched and applied machine learning algorithms utilizing SKlearn and Tensorflow python libraries, analyzing trends, building pipelines improving efficiency 200% and laying the foundations for new customer facing products. 
 * Wrote and integrated Python code to safely query AWS secure cloud PostgresSQL databases into existing projects, facilitating efficient and safe data sharing and collaboration among team members.
 
-
-## Verdi Agriculture, Vancouver, BC				    	       
+## Verdi Vancouver, BC
+Technical Support Engineer 
+May 2021 – Present
+* Monitored and managed a fleet of smart irrigation controllers
+* Detected and responded to issues with deployed devices determining root cause possible fixes
+* Assigned service staff to resolve issues based on investigation results
+* Led the assembly and QA of thousands of smart irrigation controllers
+* Wrote technical documentation for the software back end and production line
+* Designed and implemented QA testing pipelines to ensure product quality
+<!-- ## Verdi Agriculture, Vancouver, BC				    	       
 Electrical/Software Engineer (Casual On-Call) \\
 May, 2021 – Present
 * Provided technical support in helping a small startup meet production deadlines and grow their business, giving insights
@@ -53,8 +61,7 @@ into optimizations of the assembly process and improvements on Hardware and Soft
 * Assisted in research into factors affecting system integrity such as water hammer effect and pressure on valves.
 * Organized and trained a workforce to streamline assembly of 1000’s of devices in order to meet tight deadlines.
 * Soldered and applied conformal coating to 1000’s of PCBs installed into water-tight block valve control devices.
-* Software development as needed.
-
+* Software development as needed. -->
 
 ## Whole Foods Canada, Vancouver, BC				    	       
 Part-Time Meat Team Member\\
