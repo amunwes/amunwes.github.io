@@ -20,7 +20,7 @@ title                    : "Amunwes"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : &name "Andrew Munro-West"
-description              : &description "A personal portfolio blog using jekyll and minimal mistakes theme."
+description              : &description "Portfolio and blog of Andrew Munro-West — software engineer, UBC EE graduate, and data science enthusiast."
 url                      : https://amunwes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "amunwes/amunwes.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -87,7 +87,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : images\lake.jpg # Open Graph/Twitter default site image
+og_image                 : images/lake.jpg # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -105,30 +105,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Andrew M.W."
+  name             : "Andrew Munro-West"
   avatar           : "profile2.jpg"
-  bio              : "A Recent Grad of the University of British Columbia Electrical Engineering program"
+  bio              : "UBC Electrical Engineering and CS graduate. Seeking opportunities in software, data science, and graduate research in reinforcement learning."
   location         : "Vancouver B.C. Canada"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/amunwes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/andrew-munro-west/"
@@ -136,24 +121,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/amunwes"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/andrew-munro-west/"
 
 
 # Reading Files
