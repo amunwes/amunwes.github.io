@@ -18,9 +18,9 @@ In the human brain, it's a cell that receives an electrical impulse and transmit
 
 A simplified neuron can be represented by the following function:
 
-$$
+\\[
 y = w_1x_1 + w_2x_2 + \dots + w_nx_n + b
-$$
+\\]
 
 That weighted sum is the raw signal a neuron computes from its inputs and passes to it's neighboring neurons as input. 
 Depending on how the network is trained, that sum could represent litterally anything: 
