@@ -14,7 +14,10 @@ I feel like I should be able to explain that and so as an exercise decided to ta
 
 At its core, a neuron is a node for passing signals. 
 
-In the human brain, it's a cell that receives an electrical impulse and transmits that inpulse to nearby neurons. In machine learning, it's a function, it takes an input transforms it and passes the output to other neighboring neurons with varying strength.
+![](/images/Human Neuron.png){: .align-center}
+
+
+In the human brain, it's a cell that receives an electrical impulse and transmits that inpulse to nearby neurons. In machine learning, it's a function, it takes an input transforms it and passes the output to other neighboring neurons.
 
 A simplified neuron can be represented by the following function:
 
@@ -41,26 +44,30 @@ When you touch something, hear something, see something, your related sensory ce
 
 A Neural network copies this idea in a more 2 dimensional fashion. Instead of a 3-dimensional cloud of neighboring neurons we create inter-connected layers of neurons.
 
+![alt text](../images/nn_full_diagram.png)
+
 > We are only talking about basic Neural networks here, I'll talk about layerless and sparse neural networks in another post. 
 More complex network architectures like NEAT and BDH, connect neurons more similarly to an organic brain 
 
 ### The Input Layer
-TODO: add pics
-
 
 A bio neuron takes an electrical impulse delivered from a sensory organ like your eyes, ears, nose, or skin. This input helps our brain perceive the world outside our body and decide how to react. 
 
 Much the same way, an artificial neuron receives input from us. When building the neural network we define what the input represents: pixels, words, categories, board-state whatever the problem calls for. These are typically refered to as features.
 
+![alt text](../images/nn_1_input_layer.png)
+
 This is the input layer, our set of neurons that take input from whatever observable variables we are trying to use to inform the machines decision. As the entry point for the network each neuron is responsible for taking input from only a single feature.
 
 ### The Output Layer
-
 The Output layer is the group of Neurons that map to the result of our machines decision. Just like the input we need 1 neuron for every variable we are expecting to get. This is the networks final answer: a classification, a predicted value, a decision, a word, a group of settings. This is the moment the raw sensory noise has been distilled down to a single conclusion. 
 
-### The Hidden Layers
+![alt text](../images/nn_3_output_layer.png)
 
+### The Hidden Layers
 Hidden Layers sit between input and output. This is where the real work happens: each layer takes what the previous layer handed it and combines it into something more abstract. Raw pixels become edges, edges become shapes, shapes become object parts. This is where the neurons really start to lose their identity and instead start representing vibes.
+
+![alt text](../images/nn_2_hidden_layers.png)
 
 ## The Activation Function
 
@@ -80,7 +87,8 @@ output = activation(w₁x₁ + w₂x₂ + ... + wₙxₙ + b)
 
 A couple of the popular choices for how a neuron "decides to fire":
 
-TODO: insert pics of functions
+![](/images/activationFunctions.png){: .align-center}
+
 - **Sigmoid** — squashes anything into a smooth range between 0 and 1. Closer to how a biological neuron gradually ramps up its firing rate.
 - **ReLU** — much blunter: if the signal's negative, fire nothing; if it's positive, pass it through untouched. Dumber than sigmoid, but it turns out to work great in practice, and it's cheap to compute.
 
