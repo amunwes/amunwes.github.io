@@ -123,7 +123,7 @@ Backprop tells you which way to nudge each weight, gradient descent actually tak
 That's the basic shape of it: test, measure, nudge, repeat.
 
 ### Over fitting
-One last important point to mention in regards to training is **Over fitting**. **Over fitting** is probably the most common pitfall in machine learning when you are getting started. It happens when a model gets too caught up in reducing loss during training. 
+One last important point to mention in regards to training is **Over fitting**. Over fitting is probably the most common pitfall in machine learning when you are getting started. It happens when a model gets too caught up in reducing loss during training. 
 
 The model learns the patterns present in the training set instead of how to generalize to the problem. The model simply memorizes the answers to the test rather than how to solve the question.
 
