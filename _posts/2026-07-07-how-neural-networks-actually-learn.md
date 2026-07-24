@@ -3,7 +3,7 @@ layout: posts
 title: "What even are Neural Networks?"
 date: 2026-07-07 09:00:00 -0700
 tags: [machine-learning, deep-learning, neural-networks]
-excerpt: "Backpropagation sounds intimidating until you realize it's just the chain rule applied repeatedly. Here's how a neural network actually updates its weights — and why it works."
+excerpt: "Neurons, layers, activation functions, and loss — the building blocks of a neural network, before we ever get into how it actually learns."
 ---
 
 Everyone who's ever dipped a toe into machine learning or tried to learn about AI has probably heard of a neural network. But what actually is a neural network, and how does the machine learn? 
@@ -102,78 +102,41 @@ Training is the process of nudging those weights from "random garbage" to "somet
 
 The question is: how do you set the weights so that the network produces useful outputs?
 
-## The Loss Function
+### The Loss Function
 
-You can't set weights by hand for anything beyond a toy problem. Instead, you define a **loss function** — a number that measures how wrong the network's final outputs are and then you work to minimize that loss.
+You can't set weights by hand for anything beyond a toy problem. Instead, you define a **loss function** — a number that quantifies how wrong the network's final outputs are and then you work to minimize that loss.
 
 For regression, that's often mean squared error and for classification, it's usually cross-entropy loss. As the problem being solved gets more abstract the loss function tends toward some quantifiable part of the output. ie. blunders in a game of chess, score in a video game.
 
 The details vary, but the point is the same: a loss of zero means perfect predictions; higher loss means worse predictions. Your goal is to find the weights that minimize this number.
 
-## Gradient Descent
+### Optimizing
 
-In order to minimize our loss we often employ a technique known as gradient descent. The idea behind gradient descent involves thinking about our inputs to the network like an n-dimensional grid, where every point on the grid has a height representing the output of our loss function for those inputs.
+At a high level, optimizing a network comes down to the same loop every time: run an example through, check how wrong the output was with the loss function, then nudge every weight a little in whatever direction reduces that wrongness. Do that enough times over enough examples and the weights settle into something useful.
 
-The way you move downhill on this grid is called a **gradient descent**. The gradient of the loss with respect to the weights tells you which direction is uphill — so you step in the opposite direction:
+Two ideas do most of the work here: **gradient descent** and **backpropagation**.
 
-```
-w ← w - α · ∂L/∂w
-```
+- **Gradient descent** is the "which way is downhill" part. Picture the loss as a landscape shaped by every weight in the network — gradient descent just takes small steps downhill, toward whatever combination of weights produces the lowest loss.
+- **Backpropagation** is how you figure out which direction is downhill for every single weight, even in a network with millions of them. It works backward from the loss, layer by layer, handing each weight its fair share of the blame for the error.
 
-Here α is the **learning rate** — a hyperparameter controlling step size. Too large and you may overshoot. The algorithm may bounce around jumping past the local minima and shooting back up the hill, oscilating up and downhill never reaching the local minima. Too small and training takes forever or may get stuck in local minima missing out on a much more optimal global minimum. 
+Backprop tells you which way to nudge each weight, gradient descent actually takes the step.
+That's the basic shape of it: test, measure, nudge, repeat.
 
-The gradient tells you how much changing each weight would change the loss. If `∂L/∂w` is large and positive for some weight, increasing that weight makes things worse, so you decrease it. If it's large and negative, you increase it. The network slowly adjusts every weight to reduce its mistakes.
+### Over fitting
+One last important point to mention in regards to training is **Over fitting**. **Over fitting** is probably the most common pitfall in machine learning when you are getting started. It happens when a model gets too caught up in reducing loss during training. 
 
-In practice you don't compute the gradient over your entire dataset at once (that's expensive). Instead you use **mini-batch stochastic gradient descent**: compute the gradient on a small random batch of examples, take a step, move to the next batch, repeat. This introduces noise but is dramatically faster and, counter-intuitively, often generalizes better.
+The model learns the patterns present in the training set instead of how to generalize to the problem. The model simply memorizes the answers to the test rather than how to solve the question.
 
-## Backpropagation
-
-The hard part is computing `∂L/∂w` for every weight in a network that might have millions of parameters. This is what backpropagation does.
-
-Backprop is an application of the **chain rule** from calculus. The chain rule says: if you have a composition of functions f(g(x)), the derivative is:
-
-```
-d/dx f(g(x)) = f'(g(x)) · g'(x)
-```
-
-A neural network is exactly a composition of functions, each layer transforms the previous layer's output. The loss is a function of the final layer's output, which is a function of the second-to-last layer, which is a function of... all the way back to the inputs.
-
-Backprop works in two passes:
-
-**Forward pass:** compute the output of every layer, store the intermediate activations. This is just a normal prediction.
-
-**Backward pass:** starting from the loss, propagate gradients backward through the network layer by layer, applying the chain rule at each step. Each layer computes how much its inputs contributed to the loss and passes that signal backward.
-
-For a layer with weights `W` and input `x`:
-
-```
-∂L/∂W = ∂L/∂output · ∂output/∂W = δ · xᵀ
-```
-
-Where `δ` is the gradient flowing in from the layer ahead. Each layer accumulates a gradient for its weights, and at the end of the backward pass you have `∂L/∂w` for every parameter in the network.
-
-## Practical Things That Actually Matter
-
-**Vanishing and exploding gradients.** The chain rule multiplies many small (or large) numbers together as gradients flow backward through layers. If those numbers are consistently less than 1, the gradients shrink exponentially. The weights near the input barely update. This is the vanishing gradient problem. If those numbers are instead not properly bounded and are allowed to go far above 1 then we encounter the exploding gradient problem.
-
-Back in 2010, the ReLU activation function became popular for it's ability to solve the vanishing gradient problem unlocking major advances in training deep neural networks. 
-Since ReLu passes positive signals through untouched, its slope is a constant 1, so multiplying by it at every layer doesn't shrink the gradient. The signal can travel back through many layers without fading out.
-Other modern fixes to the vanishing/exploding gradient problem include: residual connections (ResNets), batch normalization, and careful weight initialization schemes like He or Glorot initialization.
-
-**Weight initialization.** Starting all weights at zero is a bad idea. Every neuron computes the same thing and updates identically, so the network never differentiates. Random initialization breaks this symmetry. The scale of the initialization matters: too large and activations saturate early; too small and the signal dies out in the forward pass.
-
-**Batch normalization.** Normalizing the inputs to each layer during training. Zero mean, unit variance  keeps the activations in a range where gradients flow cleanly. In practice it dramatically speeds up training and makes networks less sensitive to the learning rate.
-
-**Learning rate schedules.** A fixed learning rate is rarely optimal. Starting high (for fast progress early) and decaying it over time (for precise convergence later) is standard practice. Warmup + cosine decay is a common schedule for training large models.
+To keep things simple i'll stop here and save the math and practical explanation for another post.
 
 
 ## Wrapping Up
 
 I think Neural networks are so incredibly interesting, they are a fundamental piece of most modern machine learning algorithms/models. When people talk about training a model or AI they are almost always talking about tuning and optimizing the weights in a neural network. 
 
-Neural networks learn by repeatedly asking: "how wrong am I, and what should i tweak to be less wrong?" Backpropagation computes the answer, gradient descent takes the step, and after enough iterations across enough data, the network has weights that make useful predictions. It's not magic — it's calculus, applied at scale.
+So to summarize; neural networks are really just cascading layers of simple linear functions (nodes). They learn by trial and error adjusting the weights of their functions. Running training loops of test, validate, nudge, repeat.
 
-Thanks for reading this far and humoring me in this exercise. I'm hoping to start doing a monthly tech/personal interest piece
+Thanks for reading this far and humoring me in this exercise. 
 
 ---
 *Questions or corrections? Connect with me on [LinkedIn](https://www.linkedin.com/in/andrew-munro-west/).*
